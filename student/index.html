@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYTE cLuB</title>
+    <!-- LOGO -->
+     <link rel="shortcut icon" href="../assets/img/logo/Logo-ICT.png" />
+
+    <!-- Style Links -->
+     <link rel="stylesheet" href="../assets/styles/css/mainstyle.css">
+     <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.css">
+
+
+</head>
+<body>
+    
+
+    <div class="container-fluid body-background">
+        <div class="row d-flex justify-content-center align-items-center min-vh-100">
+
+
+            <div class="col-md-3 login-bg-frm shadow   bg-white  p-4 py-5 ">
+                    <form onsubmit="frmSignin(event)">
+
+                        <div class="row align-items-center text-center">
+                            <div class="col-12">
+                        <img src="../assets/img/logo/logo.jpg" class="w-25 mb-2  " style="height:85px;">
+                         <h1 class="">ICT HINAMPANG</h1>
+                         <h6 class=" ms-2  fs-6">Welcome ICT Student's</h6>
+                        
+                            </div>
+                        </div>
+                            <div class="mb-3 mt-4">
+                                <label for="txtEmail" class="form-label fw-normal ">Email Address</label>
+                                <input type="text" id="txtEmail" name="txtEmail" class="form-control " required placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtPassword" class="fw-normal form-label">Password</label>
+                                <input type="password" id="txtPassword" name="txtPassword" class="form-control  " required placeholder="">
+                            </div>
+
+                            <input type="submit" class="btn  btn-primary btn-login mb-2" value="Sign In">
+                    </form>
+                        <div id="Alertsuccess"></div>
+                        <div id="Alerterror">
+
+             </div>
+                                   <div class="text-center align-items-center mt-3">
+                                     <p class="text-center">New Member? <a href="Module/SignupModule/signup.php" class="text-decoration-none">Sign up here!</a></p>
+                                   </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../assets/js/function/jquery.js"></script>
+<script src="../assets/js/index.js"></script>
+<script src="../assets/styles/bootstrap/js/popper.js"></script>
+<script src="../assets/styles/bootstrap/js/bootstrap.js"></script>
+</html>

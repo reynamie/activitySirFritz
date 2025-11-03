@@ -1,0 +1,5 @@
+
+.search-bar {
+    float: none; /* Override float-end */
+    margin-left: auto; /* Align to the left */
+}

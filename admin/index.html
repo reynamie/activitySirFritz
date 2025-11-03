@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT HINAMPANG</title>
+    <!-- LOGO -->
+     <link rel="shortcut icon" href="../assets/img/logo/logo.jpg" />
+
+    <!-- Style Links -->
+     <link rel="stylesheet" href="../assets/styles/css/mainstyle.css">
+     <link rel="stylesheet" href="../assets/styles/bootstrap/bootstrap.css">
+
+
+</head>
+<body>
+    
+
+    <div class="container-fluid body-background">
+        <div class="row d-flex justify-content-center align-items-center min-vh-100">
+
+
+            <div class="col-md-3 login-bg-frm shadow  bg-white  p-4 py-5 ">
+                    <form onsubmit="frmAdminSignin(event)">
+                        <div class="row">
+                            <div class="col-12 align-items-center text-center ">
+                                <img src="../assets/img/logo/logo.jpg" class="w-25 mb-2 " style="height:75px;">
+                                 <h2 class="text-center">ICT HINAMPANG</h2>
+                                 <h6 class="text-center ms-2  card-title ">Welcome Admin!</h6>
+                        
+                            </div>
+                        </div>
+                       
+                            <div class="mb-3 mt-4">
+                                <label for="txtUsername" class="form-label fw-normal ">Username</label>
+                                <input type="text" id="txtUsername" name="txtUsername" class="form-control " required placeholder="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="txtPassword" class="fw-normal form-label">Password</label>
+                                <input type="password" id="txtPassword" name="txtPassword" class="form-control  " required placeholder="">
+                            </div>
+
+                            <input type="submit" class="btn  btn-primary small btn-login mb-2" value="Sign In">
+                    </form>
+     
+                        <div id="Alerterror">
+
+             </div>
+                             
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../assets/js/function/jquery.js"></script>
+<script src="../assets/js/index.js"></script>
+<script src="../assets/styles/bootstrap/js/popper.js"></script>
+<script src="../assets/styles/bootstrap/js/bootstrap.js"></script>
+</html>
