@@ -1,0 +1,76 @@
+.body-background{
+   background: whitesmoke;
+   	height: 100vh;
+}
+
+h3 {
+    color: #165398;
+}
+.login-bg-frm{
+   	
+	border-radius: 10px;
+    
+    
+}
+
+
+.login-bg-frm .form-control {
+	background-color: transparent;
+	border-radius: 3px;
+	border-color: #505050;
+	font-size: 0.8em;
+}
+
+
+.login-bg-frm form-select{
+	background-color: transparent;
+	border-radius: 3px;
+	border-color: #505050;
+	font-size: 0.8em;
+}
+
+.login-bg-frm  p{
+	font-size: 0.9em;
+}
+
+
+
+.btn-primary.btn-login{
+	background-color: #165398;
+	border-color: rgb(133, 160, 190);
+	width: 100%;
+	font-size: 0.8em;
+
+	&:hover{
+		background-color: rgba(133, 160, 190);
+	}
+}
+
+body {
+    display: flex;
+}
+.sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.sidebar h4{
+	text-align: center;
+}
+
+.sidebar li{
+	padding: 10px 0 10px 0;
+}
+
+.engagement h1{
+	font-size: 100px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.engagement span{
+	font-weight: bolder;
+}
